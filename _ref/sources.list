@@ -1,0 +1,12 @@
+
+#Questor Systesms - QNet Source
+deb file:/mnt/debian1 lenny contrib main
+deb file:/mnt/debian2 lenny contrib main
+deb file:/mnt/debian3 lenny contrib main
+deb file:/mnt/debian4 lenny contrib main
+deb file:/mnt/debian5 lenny contrib main
+
+
+
+deb http://security.debian.org/ lenny/updates main contrib
+deb-src http://security.debian.org/ lenny/updates main contrib
