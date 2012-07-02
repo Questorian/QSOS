@@ -3,8 +3,8 @@
 use warnings;
 use strict;
 
-my @accounts = qw / qssysadm qsdevel qscust qsdb qsdbro qsapp /;
-my $pass = 'questor';
+my @accounts = qw / qsdevel qscust qsdb qsdbro qsapp /;
+my $pass = 'Questor123';
 my $salt = 'qsos';
 
 foreach my $acc (@accounts){
