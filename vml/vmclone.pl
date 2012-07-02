@@ -5,8 +5,8 @@ use strict;
 use warnings;
 
 my $basedir = '/share/SHRDATA/PROD/datastores/ds01n-nqsaaa01';
-my $template = 'win7sp1';
-my $hostname = 'wqsaaa12';
+my $template = shift; 
+my $hostname = shift; 
 
 
 # rename the template files
