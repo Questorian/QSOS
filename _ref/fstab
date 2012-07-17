@@ -1,0 +1,13 @@
+
+#scripts
+nqsaaa01:bin    /usr/local/bin  nfs     rw,rsize=4096   0       0
+nqsaaa01:sbin   /usr/local/sbin nfs     rw,rsize=4096   0       0
+
+#cpan
+nqsaaa01:cpan /mnt/cpan nfs     ro,rsize=4096   0       0
+
+#debian source packages
+nqsaaa01:debian1        /mnt/debian1    nfs     ro,rsize=4096   0       0
+nqsaaa01:debian2        /mnt/debian2    nfs     ro,rsize=4096   0       0
+
+

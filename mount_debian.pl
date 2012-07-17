@@ -7,7 +7,7 @@ my $base  = '/mnt';
 my $count = 5;
 my $ip    = '192.168.219.25';
 
-foreach my $cd ( 1 .. 5 ) {
+foreach my $cd ( 1 .. $count ) {
     my $path = $base . "/debian$cd";
     if ( !-d $path ) {
         print "creating dir: $path\n";
