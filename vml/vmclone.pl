@@ -31,6 +31,11 @@ print
 print
     "execute:  perl -wpl -i.bak -e 's/$template/$hostname/g;' $hostname.vmx\n";
 
+print 
+
+    "execute:  perl -wpl -i.bak -e 's/$template/$hostname/g;' $hostname-000001.vmdk\n";
+
+
 sub usage {
 
     print "usage: $0 <template_name> <target_machine_name>\n";
