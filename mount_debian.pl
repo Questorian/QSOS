@@ -5,7 +5,7 @@ use strict;
 
 my $base  = '/mnt';
 my $count = 5;
-my $ip    = '192.168.219.25';
+my $ip    = '192.168.219.23';
 
 foreach my $cd ( 1 .. $count ) {
     my $path = $base . "/debian$cd";
