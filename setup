@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# git configuration
+git config --global user.name QSDdevOp
+git config --global user.email qsdevop@QuestorSystems.com
+
+ 
+
+
