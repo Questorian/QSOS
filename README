@@ -5,4 +5,6 @@ Files for the staging and operation of the QS OS.
 
 The Questor Systems Operating System - built on Debian Linux.
 
-last edit: 2012-07-03
+last edit: 
+* 2013-12-30 - update to contain Ansible changes
+* 2012-07-03
